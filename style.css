@@ -1,0 +1,52 @@
+body {
+    background-color: lightblue;
+  font-family: Arial;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+h1 {
+    color: darkblue;
+    font-size: 36px;
+}
+h2 {
+    color: darkgreen;
+}
+p {
+    font-size: 16px;
+}
+a {
+    color: purple;
+    display: inline-block;
+    padding: 10px;
+    background-color: white;
+    text-decoration: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  }
+a:hover {
+    color: red;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    margin-bottom: 10px;
+}
+form {
+    margin-top: 20px;
+}
+input {
+    padding: 10px;
+}
+textarea {
+    padding: 10px;
+}
+input,
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
